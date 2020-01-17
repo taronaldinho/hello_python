@@ -102,6 +102,10 @@ Anaconda のインストール先についてはデフォルトのままでも�
 
 - 腕試し  
   - [Project Euler](https://projecteuler.net)  
+  - [AtCoder：競技プログラミングコンテストを開催する国内最大のサイト](https://atcoder.jp/?lang=ja)  
+  - [TOP | SIGNATE - Data Science Competition](https://signate.jp/)  
+  - [Kaggle: Your Home for Data Science](https://www.kaggle.com/)  
+
 
 ### 書籍  
 
