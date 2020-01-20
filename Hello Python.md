@@ -68,11 +68,33 @@ Try Jupyter は Project Jupyter が提供しているサービスである。
 
 ### Anaconda Distribution を利用する  
 
-Anaconda を使えば Python に加えて、データ分析に利用される様々なパッケージを同時にインストールすることができる。  
-また、`conda` コマンドで仮想環境やパッケージの管理もできるようになる。  
+Anaconda を使えば Python に加えて、データ分析に利用される様々なパッケージを同時にインストールすることができる。例として、  
+
+- Beautiful Soup → HTML の解析  
+- Jupyter Notebook/JupyterLab → Python による対話的なデータ分析実行環境 
+- NumPy → 高速な配列、行列操作  
+- Pandas → 表形式データの操作  
+- Matplotlib/seaborn → 図によるデータの可視化  
+- scikit-learn → 統計的なデータ分析  
+- Sphinx → ドキュメント作成  
+- pywin32 → Windows (Win32 API) の操作
+- xlwings/openpyexl → Excel の操作  
+
+などがすぐに利用できるようになる。  
+また、下記のパッケージなども追加でダウンロードすることができる。    
+
+- TensorFlow → Deep Learning フレームワーク (Google 製)  
+- PyTorch → Deep Learning フレームワーク (Facebook 製)  
+- Selenium → WEB ブラウザの操作  
+
+さらに、`conda` コマンドで仮想環境やパッケージの管理もできるようになる。  
+Python を対象とした書籍でも、多くの場合 Anaconda を利用して環境構築を行っているため、Python 初学者に対しては Anaconda を利用することをおすすめする。  
 
 Anaconda のインストーラのダウンロードはここから  
 [Anaconda Python/R Distribution - Free Download](https://www.anaconda.com/distribution/)  
+
+Miniconda (必要最小限のパッケージのみ) のダウンロードはここから  
+[Miniconda — Conda documentation](https://docs.conda.io/en/latest/miniconda.html)
 
 Anaconda のインストール先についてはデフォルトのままでもよいが、今後インストールするパッケージによっては、Windows の最長パス制限を超過することによって不具合が生じる可能性があるため、あまり深すぎない場所にインストールしたほうがいいかも。(`C:\Users\[USERPROFILE]\Anaconda3` などを推奨)  
 
@@ -82,7 +104,10 @@ Anaconda のインストール先についてはデフォルトのままでも�
 
 ### 公式から Python をダウンロードする  
 
-(今後なんか書きます)
+Python Software Foundation (PSF) から Python のダウンロードはここから  
+[Download Python | Python.org](https://www.python.org/downloads/)
+
+この方法の場合、`pip` コマンドで PyPI (The Python Package Index) からパッケージをダウンロードし、venv や pipenv などの仮想環境管理ツールと組み合わせて利用することになる。  
 
 ## Python の基本文法やその他有用な WEB サイトについて  
 
