@@ -1,6 +1,6 @@
-# Hello Python - Python のはじめかた  
+# Python のはじめかた  
 
-このドキュメントは Sansaku Python Community (SPC) のこれから Python をはじめるメンバー向けに作成したものです。  
+この記事では Python を手っ取り早く使ってみる方法や、ローカル PC へインストールする方法を紹介しています。  
 
 ## Python とは  
 
@@ -71,17 +71,17 @@ Try Jupyter は Project Jupyter が提供しているサービスである。
 Anaconda を使えば Python に加えて、データ分析に利用される様々なパッケージを同時にインストールすることができる。例として、  
 
 - Beautiful Soup → HTML の解析  
-- Jupyter Notebook/JupyterLab → Python による対話的なデータ分析実行環境 
+- Jupyter Notebook/JupyterLab → Python による対話的なデータ分析実行環境  
 - NumPy → 高速な配列、行列操作  
 - Pandas → 表形式データの操作  
 - Matplotlib/seaborn → 図によるデータの可視化  
 - scikit-learn → 統計的なデータ分析  
 - Sphinx → ドキュメント作成  
-- pywin32 → Windows (Win32 API) の操作
+- pywin32 → Windows (Win32 API) の操作  
 - xlwings/openpyexl → Excel の操作  
 
 などがすぐに利用できるようになる。  
-また、下記のパッケージなども追加でダウンロードすることができる。    
+また、下記のパッケージなども追加でダウンロードすることができる。  
 
 - TensorFlow → Deep Learning フレームワーク (Google 製)  
 - PyTorch → Deep Learning フレームワーク (Facebook 製)  
@@ -94,7 +94,7 @@ Anaconda のインストーラのダウンロードはここから
 [Anaconda Python/R Distribution - Free Download](https://www.anaconda.com/distribution/)  
 
 Miniconda (必要最小限のパッケージのみ) のダウンロードはここから  
-[Miniconda — Conda documentation](https://docs.conda.io/en/latest/miniconda.html)
+[Miniconda — Conda documentation](https://docs.conda.io/en/latest/miniconda.html)  
 
 Anaconda のインストール先についてはデフォルトのままでもよいが、今後インストールするパッケージによっては、Windows の最長パス制限を超過することによって不具合が生じる可能性があるため、あまり深すぎない場所にインストールしたほうがいいかも。(`C:\Users\[USERPROFILE]\Anaconda3` などを推奨)  
 
@@ -105,33 +105,6 @@ Anaconda のインストール先についてはデフォルトのままでも�
 ### 公式から Python をダウンロードする  
 
 Python Software Foundation (PSF) から Python のダウンロードはここから  
-[Download Python | Python.org](https://www.python.org/downloads/)
+[Download Python | Python.org](https://www.python.org/downloads/)  
 
 この方法の場合、`pip` コマンドで PyPI (The Python Package Index) からパッケージをダウンロードし、venv や pipenv などの仮想環境管理ツールと組み合わせて利用することになる。  
-
-## Python の基本文法やその他有用な WEB サイトについて  
-
-### WEB サイト  
-
-- 基本文法  
-  - [Python入門 - ＠IT](https://www.atmarkit.co.jp/ait/series/12963/)  
-  - [Pythonチートシート - ＠IT](https://www.atmarkit.co.jp/ait/series/17323/)  
-  - [【連載】ゼロからはじめるPython | マイナビニュース](https://news.mynavi.jp/series/zeropython)  
-
-- データサイエンス 機械学習  
-  - [機械学習＆ディープラーニング入門（Python編） - ＠IT](https://www.atmarkit.co.jp/ait/series/15506/)
-  - [ディープラーニング入門：Chainer チュートリアル]( https://tutorials.chainer.org/ja/)  
-  - [メディカルAI専門コース オンライン講義資料 — メディカルAI専門コース オンライン講義資料 documentation](https://japan-medical-ai.github.io/medical-ai-course-materials/)  
-  - [Learn | Kaggle](https://www.kaggle.com/learn/overview)  
-  - [piqcy | Revue](https://www.getrevue.co/profile/icoxfog417?utm_campaign=Issue&utm_content=profileimage&utm_medium=email&utm_source=piqcy)  
-
-- 腕試し  
-  - [Project Euler](https://projecteuler.net)  
-  - [AtCoder：競技プログラミングコンテストを開催する国内最大のサイト](https://atcoder.jp/?lang=ja)  
-  - [TOP | SIGNATE - Data Science Competition](https://signate.jp/)  
-  - [Kaggle: Your Home for Data Science](https://www.kaggle.com/)  
-
-
-### 書籍  
-
-技術開発グループで購入した書籍が多数あります。GroupSession の 施設予約でも確認/貸し出し予約ができますのでご覧ください。  
