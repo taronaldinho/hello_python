@@ -20,7 +20,7 @@ Python を学ぶことができる WEB サイトや書籍について紹介し�
 
 ## Jupyter 基礎  
 
-<今後作成予定>  
+[Jupyter 基礎](./Jupyter基礎/Jupyter基礎.ipynb)
 
 ## パッケージ紹介  
 
