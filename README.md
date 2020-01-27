@@ -14,13 +14,15 @@ Python を学ぶことができる WEB サイトや書籍について紹介し�
 
 [Python 学習用の WEB サイトや書籍について](./Python学習用のWEBサイトや書籍について/Python学習用のWEBサイトや書籍について.md)  
 
+## Jupyter 基礎  
+
+対話的に Python を実行したり、データの処理過程を可視化/メモしたりすることができる Jupyter (Notebook/Lab) について説明します。
+
+[Jupyter 基礎](./Jupyter基礎/Jupyter基礎.ipynb)
+
 ## Python 基礎文法  
 
 <今後作成予定>  
-
-## Jupyter 基礎  
-
-[Jupyter 基礎](./Jupyter基礎/Jupyter基礎.ipynb)
 
 ## パッケージ紹介  
 
