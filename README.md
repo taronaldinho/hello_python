@@ -14,15 +14,20 @@ Python を学ぶことができる WEB サイトや書籍について紹介し�
 
 [Python 学習用の WEB サイトや書籍について](./Python学習用のWEBサイトや書籍について/Python学習用のWEBサイトや書籍について.md)  
 
-## Python 基礎文法  
-
-<今後作成予定>  
-
 ## Jupyter 基礎  
+
+Python コードやその出力、さらにはメモをひとつの "ノートブック" に残すことができる Jupyter Notebook/JupyterLab について紹介しています。  
 
 [Jupyter 基礎](./Jupyter基礎/Jupyter基礎.ipynb)
 
-## パッケージ紹介  
+## Python ライブラリ紹介  
+
+Python の標準ライブラリを中心に、用途や簡単な使い方を紹介しています。  
+
+[Python ライブラリ紹介](./Pythonライブラリ紹介/Pythonライブラリ紹介.md)
+ 
+
+## Python 基礎文法  
 
 <今後作成予定>  
 
