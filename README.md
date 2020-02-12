@@ -16,7 +16,6 @@ Python を学ぶことができる WEB サイトや書籍について紹介し�
 
 ## Jupyter 基礎  
 
-<<<<<<< HEAD
 Python コードやその出力さらにはメモを、ひとつの "ノートブック" に残すことができる Jupyter Notebook/JupyterLab について紹介しています。  
 
 [Jupyter 基礎](./Jupyter基礎/Jupyter基礎.ipynb)
