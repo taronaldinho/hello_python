@@ -49,7 +49,9 @@ Pandas は表形式のデータの操作、可視化を得意とするライブ�
 
 ### xlwings  
 
-<今後追記予定>  
+xlwings は VBA ライクに Excel を扱うことができるライブラリです。  
+
+[xlwings 練習](./xlwings練習.ipynb)  
 
 ### openpyxl  
 
