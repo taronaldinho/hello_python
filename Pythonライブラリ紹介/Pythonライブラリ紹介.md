@@ -22,7 +22,7 @@ WEB ページ
 
 練習用資料  
 
-- [os と sys モジュールのつかいかた](./osとsysモジュールのつかいかた.ipynb)  
+- [os と sys モジュールの使い方](./osとsysモジュールの使い方.ipynb)  
 
 ---
 
@@ -42,7 +42,7 @@ WEB ページ
 
 練習用資料  
 
-- [pathlib モジュールのつかいかた](./pathlibモジュールのつかいかた.ipynb)
+- [pathlib モジュールの使い方](./pathlibモジュールの使い方.ipynb)
 
 ---
 
