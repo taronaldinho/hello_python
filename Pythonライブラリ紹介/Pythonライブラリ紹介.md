@@ -48,11 +48,15 @@ WEB ページ
 
 ### datetime  
 
+このモジュールは日付や時刻を操作するためのクラスを提供しています。  
+
 WEB ページ  
 
 - [datetime --- 基本的な日付型および時間型](https://docs.python.org/ja/3/library/datetime.html)  
 
-<今後追記予定>  
+練習用資料  
+
+- [datetime モジュールの使い方](./datetimeの使い方.ipynb)
 
 ## 科学計算、データ分析  
 
