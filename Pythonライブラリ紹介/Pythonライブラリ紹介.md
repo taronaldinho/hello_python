@@ -56,23 +56,27 @@ WEB ページ
 
 練習用資料  
 
-- [datetime モジュールの使い方](./datetimeの使い方.ipynb)
+- [datetime モジュールの使い方](./datetimeの使い方.ipynb)  
 
 ## 科学計算、データ分析  
 
 ### NumPy  
 
+NunPy は多次元配列の操作を行うためのライブラリです。  
+
 WEB ページ  
 
 - [NumPy](https://numpy.org/)  
 
-<今後追記予定>  
+<練習用資料  
+
+- [NumPy 練習](./NumPy練習.ipynb)  
 
 ---
 
-### Pandas  
+### pandas  
 
-Pandas は表形式のデータの操作、可視化を得意とするライブラリです。  
+pandas は表形式のデータの操作、可視化を得意とするライブラリです。  
 
 WEB ページ  
 
