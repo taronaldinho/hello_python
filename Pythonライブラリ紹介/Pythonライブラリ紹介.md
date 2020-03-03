@@ -88,6 +88,19 @@ WEB ページ
 
 ---
 
+### matplotlib  
+
+matplotlib は Python およびその科学計算用ライブラリ NumPy のためのグラフ描画ライブラリです。  
+
+WEB ページ  
+
+- [Matplotlib: Python plotting](https://matplotlib.org/index.html)  
+
+練習用資料  
+
+- [matplotlib 練習](./matplotlib練習.ipynb)  
+
+---
 ### seaborn  
 
 Seaborn は、Python で統計分析のための図を作成するためのライブラリです。 matplotlib のラッパーとして機能し、pandas のデータ構造と密接に統合されています。  
