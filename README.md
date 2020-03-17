@@ -6,7 +6,7 @@
 
 Python を手っ取り早く使ってみる方法や、ローカル PC へインストールする方法を紹介しています。  
 
-- [Python のはじめかた](./Pythonのはじめかた/Pythonのはじめかた.md)  
+- [Python の始めかた](./Pythonの始め方/Pythonの始め方.md)  
 
 ## Python 学習用の WEB サイトや書籍について  
 
