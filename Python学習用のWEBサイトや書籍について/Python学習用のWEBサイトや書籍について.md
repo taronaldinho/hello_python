@@ -1,8 +1,8 @@
-# Python 学習用の WEB サイトや書籍について  
+# Python学習用のWEBサイトや書籍について  
 
-この記事では Python を学ぶことができる WEB サイトや書籍について紹介しています。  
+この記事ではPythonを学ぶことができるWEBサイトや書籍について紹介しています。  
 
-## WEB サイト  
+## WEBサイト  
 
 ### 公式・コミュニティ  
 
@@ -21,7 +21,7 @@
 - [【連載】ゼロからはじめるPython | マイナビニュース](https://news.mynavi.jp/series/zeropython)  
 - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)  
 
-### データサイエンス 機械学習  
+### データサイエンス、機械学習  
 
 - [機械学習＆ディープラーニング入門（Python編） - ＠IT](https://www.atmarkit.co.jp/ait/series/15506/)  
 - [ディープラーニング入門：Chainer チュートリアル]( https://tutorials.chainer.org/ja/)  
@@ -50,7 +50,7 @@
 
 ## 書籍  
 
-会社で購入した書籍が多数あります。GroupSession の 施設予約でも確認/貸し出し予約ができますのでご覧ください。  
+会社で購入した書籍が多数あります。GroupSessionの施設予約でも確認/貸し出し予約ができますのでご覧ください。  
 
 ### 退屈なことはPythonにやらせよう  
 
