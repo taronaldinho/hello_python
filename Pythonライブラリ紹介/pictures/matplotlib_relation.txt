@@ -1,0 +1,24 @@
+
+ matplotlib                                                      ┌─ plot()
+  │                                                              ├─ scatter()
+  ├─ pyplot (plt) ─────── "Matlab style" ────────┐               ├─ hist()
+  │     │                                        ├─ "plottting" ─┼─ bar(), barh()
+  │   "OOP style"                                │               ├─ pie()
+  │     ├────────────────────────┐               │               ├─ boxplot()
+  │   plt.figure()            plt.subplots()     │               ├─ …          ┌─ text()
+  │     │                        │               │                             ├─ annotate()
+  │     │   ┌────────────────────┴───────────┐   ├─ "annotation" ──────────────┼─ arrow()
+  │     │   v                                │   │             ┌─ legend()     ├─ …
+  │     └> Figure ┬ Figure.add_subplot() ┐   v   │             ├─ grid()
+  │         │     │                      ├> Axes ┤             ├─ tick_params()
+  ├─ …      │     └ Figure.add_axes() ───┘   .   │             ├─ title()/suptitle()/set_title()
+            │                                .   │             ├─ facecolor()/set_facecolor() 
+            ├── Figure.add_gridspec(). . . . .   └─ "setting" ─┼─ xlim()/set_xlim() 
+            │                                                  ├─ ylim()/set_ylim()
+            └────── "setting" ─────────────────────────────────┼─ xscale()/set_xscale()
+                                                               ├─ yscale()/set_yscale()
+                                                               ├─ xlabel()/set_xlabel()
+                                                               ├─ ylabel()/set_ylabel()
+                                                               ├─ … 
+
+
