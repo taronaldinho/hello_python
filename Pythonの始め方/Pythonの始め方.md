@@ -6,16 +6,19 @@
 
 Pythonは、比較的学習しやすくさまざまな用途に利用可能なオープンソースライセンスで提供されているプログラミング言語です。  
 
+> Python（パイソン）はインタープリタ型の高水準汎用プログラミング言語である。  
+> （中略）  
+> Pythonには、読みやすく、それでいて効率もよいコードをなるべく簡単に書けるようにするという思想が浸透しており、Pythonコミュニティでも単純で簡潔なコードをよしとする傾向が強い。Pythonの本体は、ユーザがいつも必要とする最小限の機能のみを提供する。基本機能以外の専門機能や拡張プログラムはインターネット上にライブラリとして提供されており、別途ダウンロードして保存し、必要なツールはこのツールキットからその都度呼び出して使用する。（Wikipediaより引用）  
+
 [Welcome to Python.org（公式)](https://www.python.org/)  
 [Top - python.jp（日本の Python コミュニティ)](https://www.python.jp/)  
 [Python - Wikipedia](https://ja.wikipedia.org/wiki/Python)  
 
-> 文法を極力単純化してコードの可読性を高め、読みやすく、また書きやすくしてプログラマの作業性とコードの信頼性を高めることを重視してデザインされた、汎用の高水準言語である。  
-> 核となる本体部分は必要最小限に抑えられている。一方で標準ライブラリやサードパーティ製のライブラリ、関数など、さまざまな領域に特化した豊富で大規模なツール群が用意され、インターネット上から無料で入手でき、自らの使用目的に応じて機能を拡張していくことができる。（Wikipediaより引用）  
+---
 
 ## WEBを利用して手っ取り早くPythonを使う  
 
-インターネットを利用できるPC環境（スマホは厳しい）であれば、WEB上のさまざまな無料サービスを利用してすぐにPythonに触れることができます。  
+インターネットを利用できるPC環境（スマホは厳しい）であれば、WEB上のさまざまな無料サービスを利用して**すぐに**Pythonに触れることができます。  
 
 ### Google Colaboratoryを利用する  
 
@@ -26,8 +29,8 @@ Pythonは、比較的学習しやすくさまざまな用途に利用可能な�
 特徴  
 
 - インターネット接続に加えて、Googleアカウントがあればいつでも始めることができる。  
-- 自分のGoogleドライブにNotebookやデータを保存できる。  
-- 自分のGoogleドライブのNotebookやデータを利用できる。  
+- 自分のGoogleドライブにNotebook（.ipynb）やデータを保存できる。  
+- 自分のGoogleドライブのNotebook（.ipynb）やデータを利用できる。  
 - GPUや専用のプロセッサも無料で利用できる。  
 - いくつかの練習用データセットがデフォルトで利用可能。  
 - その他、本来のJupyter Notebookにはない機能が多数存在する。  
@@ -55,18 +58,30 @@ Pythonは、比較的学習しやすくさまざまな用途に利用可能な�
 注意点  
 
 - 同時利用者が多いとサービスを利用できない場合がある。  
-- 作成したファイルの保存が面倒。(ダウンロードしてローカルPCなどに保存）
+- 作成したファイルの保存が面倒。（.ipynbとしてダウンロードしてローカルPCなどに保存しなければならない）
 - しばらく（数十分？）放置しているとサーバが終了してしまい、作成したファイルはすべて失われる。そのため保存したいデータはまめにダウンロードしなければならない。  
-- 以前の作業を再開するにはダウンロードしたファイルをアップロードしなければならない。  
+- 以前の作業を再開するにはダウンロードしたファイル（.ipynb）をアップロードしなければならない。  
 
 ### プログラミング教育サービスを利用する  
 
 [Progate | プログラミングの入門なら基礎から学べるProgate[プロゲート]](https://prog-8.com/)  
 [SoloLearn: Learn to Code for Free!](https://www.sololearn.com/)  
 
+---
+
 ## 自分のパソコンでPythonを使う  
 
-### Anaconda Distributionを利用する  
+Pythonのによる処理の実行方法は、大別して3つあります。  
+
+1. Pythonインタプリタを起動して対話的に処理を行う。  
+1. Pythonインタプリタに処理を記述したPythonスクリプトを読み込ませる。  
+1. Jupyter（前述のGoogle ColaboratoryやTry Jupyterのようなツール。要インストール）を起動して対話的に処理を行う。  
+
+Pythonを手元のパソコンにインストールすることで、上記のような方法で処理を行うことができます。  
+
+### インストール方法1 Anaconda Distributionを利用する  
+
+> Anacondaは、 科学計算（データサイエンス、機械学習アプリケーション、大規模データ処理、予測分析など）のためのPythonおよびR言語の無料のオープンソースディストリビューションであり、パッケージ管理とデプロイメントを簡略化することを狙ったものである。（Wikipediaより引用）
 
 Anacondaを使えばPythonに加えて、データ分析に利用されるさまざまなパッケージを同時にインストールできます。例として、  
 
@@ -81,7 +96,7 @@ Anacondaを使えばPythonに加えて、データ分析に利用されるさま
 - xlwings/openpyexl → Excelの操作  
 
 などがすぐに利用できます。  
-また、下記のパッケージなども追加でダウンロードできます。  
+また、下記のパッケージなども追加でダウンロードして利用できます。  
 
 - TensorFlow → Deep Learningフレームワーク（Google製）  
 - PyTorch → Deep Learningフレームワーク（Facebook製）  
@@ -90,21 +105,70 @@ Anacondaを使えばPythonに加えて、データ分析に利用されるさま
 さらに、`conda` コマンドで仮想環境やパッケージの管理もできます。  
 Pythonを対象とした書籍でも、多くの場合Anacondaを利用して環境構築を行っているため、Python初学者に対してはAnacondaを利用することをオススメします。  
 
-Anacondaのインストーラのダウンロードはここから  
-[Anaconda Python/R Distribution - Free Download](https://www.anaconda.com/distribution/)  
+#### Anacondaのインストール手順  
 
-Miniconda（必要最小限のパッケージのみ）のダウンロードはここから  
+##### インストーラを入手する  
+- Anacondaのインストーラのダウンロードはここから  
+[Anaconda Python/R Distribution - Free Download](https://www.anaconda.com/products/individual#Downloads:~:text=Anaconda%20Installers)  
+- Miniconda（必要最小限のパッケージのみ）のダウンロードはここから  
 [Miniconda — Conda documentation](https://docs.conda.io/en/latest/miniconda.html)  
 
-Anacondaのインストール先についてはデフォルトのままでも良いのですが、今後インストールするパッケージによっては、Windowsの最長パス制限を超過することによる不具合が生じる可能性があるため、あまり深すぎない場所にインストールしたほうがいいかも。(`C:\Users\[USERPROFILE]\Anaconda3` などを推奨）  
+##### インストーラを実行する  
+
+インストーラを実行すると下のようなウィンドウが表れます。  
+
+<img src=".\pictures\Anaconda_install_win01.webp" width="400">  
+
+"Next" をクリックします。  
+
+<img src=".\pictures\Anaconda_install_win02.webp" width="400">  
+
+同意書の内容を確認し、"I Agree" をクリックします。  
+
+<img src=".\pictures\Anaconda_install_win03.webp" width="400">  
+
+"Just Me (recommended)" を選択し "Next" をクリックします。  
+
+<img src=".\pictures\Anaconda_install_win04.png" width="400">  
+
+Anacondaのインストール先を聞かれます。今後インストールするパッケージによっては、Windowsの最長パス制限を超過することによる不具合が生じる可能性があるため、あまり深すぎない場所にインストールするほうがいいです。（`C:\Users\[USERNAME]\Anaconda3` などを推奨）  
+注意: アカウント名にスペースや全角文字が含まれる場合、この画面で警告がでてインストールができないことがあるようです。  
+<img src=".\pictures\Anaconda_install_win05.webp" width="400">  
+
+上記の状態のまま、"Install" をクリックします。  
+
+<img src=".\pictures\Anaconda_install_win06.webp" width="400">  
+
+インストールが始まります。  
+
+<img src=".\pictures\Anaconda_install_win07.webp" width="400">  
+
+"Next" をクリックします。  
+
+<img src=".\pictures\Anaconda_install_win08.webp" width="400">  
+
+チェックを外した状態で "Finish" をクリックしてインストールは完了です。  
+
+##### インストールされたものを確認する  
 
 インストールが完了したら、スタートメニューから、  
 ![スタートメニュー](./pictures/Anacondaインストール後のスタートメニュー.png)  
-上記のように追加されていることが確認できる。  
+上記のようにAnacondaが追加されていることが確認できます。  
 
-### 公式からPythonをダウンロードする  
+Anaconda Navigatorを起動すると下記の画面が表示され、ここからGUIを使って仮想環境を管理したり、各種ツールを起動したりできます。  
+<img src=".\pictures\Anaconda_install_win09-2048x1310.webp" width="400">  
+
+Anaconda Powershell PromptまたはAnaconda Promptを起動すると下記の画面が表示され、CUIからコマンドによって仮想環境を管理したり、各種ツールを起動したりできます。  
+主な使い方は [condaコマンドの使い方](../仮想環境とパッケージの管理/condaコマンドの使い方.md)（PDFの場合はリンクは機能しません）を参照ください。  
+<img src=".\pictures\AnacondaPrompt.png" width="400">  
+
+上記のプロンプト（`>`）に続いて、`Python` と入力してEnterを押すとPythonインタプリタが起動し、対話的に処理を行うことができます。終了するときは `quit()` と入力してEnterを押します。  
+
+---
+
+### インストール方法2 公式からPythonをダウンロードする  
 
 Python Software Foundation（PSF）からPythonのダウンロードはここから  
 [Download Python | Python.org](https://www.python.org/downloads/)  
 
-この方法の場合、`pip` コマンドでPyPI（The Python Package Index）からパッケージをダウンロードし、venvやpipenvなどの仮想環境管理ツールと組み合わせて利用することになる。  
+この方法の場合、`pip` コマンドでPyPI（The Python Package Index）からパッケージをダウンロードし、venvやpipenvなどの仮想環境管理ツールと組み合わせて利用することになります。  
